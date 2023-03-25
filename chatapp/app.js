@@ -12,6 +12,7 @@ console.log("server running")
 
 
 
+
 app.get('/',(req,res,next)=>{
     res.send(`<h1>hello</h1>`)
 })
